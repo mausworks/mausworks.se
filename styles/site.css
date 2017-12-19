@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
   color: #1b0b0f;
   font-family: 'Folio Light';
-  font-size: 15px;
+  font-size: 14px;
 }
 
 a {
@@ -151,6 +151,7 @@ a.card-item:hover {
 .card-item__illustration {
   width: 80px;
   height: 80px;
+  margin-left: 10px;
   background: #1b0b0f;
   border-radius: 50%;
   position: relative;
@@ -184,7 +185,7 @@ a.card-item:hover {
 }
 
 .card-item__info > p {
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 10px;
 }
 
