@@ -118,8 +118,8 @@ h3 {
   color: #fffcfa;
   border-bottom: 2px solid #8c1638;
   border-image: linear-gradient(60deg, #ff9036, 20%, #8c1638, 40%, #1b0b0f) 1 stretch;
-  padding: 10px 20px;
-  line-height: 1;
+  padding: 20px 20px;
+  line-height: 0;
   background: #fffcfa;
   color: #1b0b0f;
   text-align: left;
