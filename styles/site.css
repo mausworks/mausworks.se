@@ -157,6 +157,10 @@ a.card-item:hover {
   position: relative;
 }
 
+.card-item__illustration:first-child {
+  margin-left: 0;
+}
+
 .card-item__illustration > img {
   width: 80px;
   height: 80px;
