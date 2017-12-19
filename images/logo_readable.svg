@@ -1,0 +1,5 @@
+<svg class="mw" width="150" height="90" xmlns="http://www.w3.org/2000/svg">
+ <path class="mw__left-cap" d="M0 90 L50 90 L100 0 L50 0z" fill="#ff9036" />
+ <path class="mw__back" d="M50 90 L150 90 L150 0 100 0z" fill="#1b0b0f" />
+ <path class="mw__mid-shard" d="M100 90 L100 0 L150 0z" fill="#8c1638" />
+</svg>
