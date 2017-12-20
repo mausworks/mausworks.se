@@ -155,6 +155,7 @@ a.card-item:hover {
   background: #1b0b0f;
   border-radius: 50%;
   position: relative;
+  align-self: center;
 }
 
 .card-item__illustration:first-child {
