@@ -45,6 +45,7 @@ h3 {
 .mw {
   perspective: 500px;
   overflow: visible;
+  transition: all .4s;
 }
 
 .mw > path {
@@ -80,13 +81,13 @@ h3 {
   text-transform: uppercase;
   font-family: 'Folio Medium', Helvetica, sans-serif;
   font-size: 25px;
-  line-height: 0.95;
+  line-height: 0.9;
   letter-spacing: -.2px;
-  transition: all .4s linear;
+  transition: all .4s;
 }
 
 #logo:hover figcaption {
-  color: #8c1638;
+  color: #ff9036;
 }
 
 #logo:hover > .mw > path {
@@ -231,7 +232,6 @@ a.card-item:hover {
 
   #logo figcaption {
     font-size: 30px;
-    line-height: 0.9
   }
 
   .contact-me a {
