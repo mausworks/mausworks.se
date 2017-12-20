@@ -59,7 +59,7 @@
             <div class="card-item__info">
               <h3>Rasmus Wennerstr&ouml;m</h3>
               <p>I'm a passionate software developer located in Stockholm, Sweden.</p>
-              <p><a title="E-mail me" href="mailto:rasmuswennerstrom@gmail.com">rasmuswennerstrom@gmail.com</a></p>
+              <p><a title="E-mail me" id="email-link" data-email="cmFzbXVzd2VubmVyc3Ryb21AZ21haWwuY29t">E-mail me!</a></p>
             </div>
             <figure class="card-item__illustration">
               <img alt="GitHub avatar" title="Rasmus Wennerström" src="https://avatars3.githubusercontent.com/u/8259221" />
@@ -82,6 +82,27 @@
 
     </div>
   </section>
+
+  <script>
+    // This is hardly 'fool-proof' by any measure,
+    // but it does give me a sense of (false) security,
+    // and a warm gut-feeling.
+    (function (triggerId, targetAttr, dataAttr, targetAttrPrefix) {
+      var trigger = document.getElementById(triggerId);
+
+      trigger.addEventListener('click', function (event) {
+        if (trigger.hasAttribute(targetAttr)) return;
+
+        event.preventDefault();
+
+        var data = trigger.getAttribute(dataAttr);
+        var plain = atob(trigger.getAttribute(dataAttr));
+
+        trigger.setAttribute(targetAttr, targetAttrPrefix + plain);
+        trigger.textContent = plain;
+      });
+    })('email-link', 'href', 'data-email', 'mailto:');
+  </script>
 
 </body>
 

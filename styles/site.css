@@ -30,6 +30,7 @@ body {
 a {
   color: #8c1638;
   text-decoration: none;
+  cursor: pointer;
 }
 
 h3 {
