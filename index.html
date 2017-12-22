@@ -1,12 +1,14 @@
 <!doctype HTML>
-
 <html>
-
 <head>
-  <title>mausworks</title>
+  <title>Mausworks</title>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Pidget: Error reporting and event handling for ASP.NET / .NET Core using sentry.io">
+  <meta name="keywords" content="software,programming,dotnet,error,reporting">
+  <meta name="author" content="Rasmus Wennerström">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link rel="stylesheet" href="styles/site.css" />
   <link rel="icon" href="images/favicon.svg" />
@@ -22,14 +24,14 @@
 
 <body>
   <header id="site-header">
-    <figure id="logo">
+    <figure id="logo" title="Mausworks">
       <svg viewBox="0 0 75 45" title="Mausworks" preserveAspectRatio="none" class="mw" width="75" height="45" xmlns="http://www.w3.org/2000/svg">
         <path class="mw__left-cap" d="M0 45 L25 45 L50 0 L25 0z" fill="#ff9036" />
         <path class="mw__back" d="M25 45 L75 45 L75 0 50 0z" fill="#1b0b0f" />
         <path class="mw__mid-shard" d="M50 45 L50 0 L75 0z" fill="#8c1638" />
       </svg>
 
-      <figcaption title="Mausworks">
+      <figcaption>
         MAUS<br/>WORKS
       </figcaption>
     </figure>
@@ -54,13 +56,15 @@
 
       <div class="start-card">
         <h2 class="card-header card-header--alt">Author</h2>
+
         <div class="card-items">
           <article class="card-item">
             <div class="card-item__info">
-              <h3>Rasmus Wennerstr&ouml;m</h3>
+              <h3>Rasmus Wennerström</h3>
               <p>I'm a passionate software developer located in Stockholm, Sweden.</p>
               <p><a title="E-mail me" id="email-link" data-email="cmFzbXVzd2VubmVyc3Ryb21AZ21haWwuY29t">E-mail me!</a></p>
             </div>
+
             <figure class="card-item__illustration">
               <img alt="GitHub avatar" title="Rasmus Wennerström" src="https://avatars3.githubusercontent.com/u/8259221" />
             </figure>
@@ -73,20 +77,16 @@
                 <a href="https://linkedin.com/in/mausworks" title="My Linked-In">LinkedIn</a>
                 <a href="https://fb.me/rasmus.wennerstrom" title="My Facebook">Facebook</a>
                 <a href="https://stackexchange.com/users/5977261/die-maus" title="My StackExchange profile">StackExchange</a>
-                <a href="https://www.google.com/search?q=rasmus+wennerström">Google me!</a>
+                <a href="https://www.google.com/search?q=rasmus+wennerström" title="Google Rasmus Wennerström">Google me!</a>
               </div>
             </div>
           </article>
         </div>
       </div>
-
     </div>
   </section>
 
   <script>
-    // This is hardly 'fool-proof' by any measure,
-    // but it does give me a sense of (false) security,
-    // and a warm gut-feeling.
     (function (triggerId, targetAttr, dataAttr, targetAttrPrefix) {
       var trigger = document.getElementById(triggerId);
 
@@ -105,5 +105,4 @@
   </script>
 
 </body>
-
 </html>
